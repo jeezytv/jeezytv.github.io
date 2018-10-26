@@ -1,0 +1,275 @@
+ 
+body{
+	font-family: 'Asap', sans-serif;
+	color: #4d4d4d;
+}
+header{
+	background: url(../img/main-bg.jpg) center top;
+	 
+}
+ul, li{
+	display: block;
+	padding: 0;  /*бнуляем отступы и делаем блоки*/
+	margin: 0;
+
+}
+.main-header{
+	padding-top: 30px;
+}
+.menu a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #4d4d4d;
+	padding-bottom: 5px;
+	font-weight: 500;
+}
+.menu a:hover{
+	border-bottom: 2px solid #878787 ;
+}
+.main__text{
+	margin-top: 177px;
+	
+}
+.main__text p{	
+	font-size: 21px;
+	font-weight: 400;
+	color: #9b9b9b;
+}
+h1{ margin: 0 auto;
+	font-weight: 500;
+	font-size: 85px;
+	line-height: 0.9em;
+	text-align: left;
+}
+.button__icon{
+	margin-top: 15px;
+	width: 160px;
+	height: 50px;
+	margin-right: 20px;
+	background-color: #e1e1e1 ; 
+	text-transform: uppercase;
+	border-radius: 0px;	 
+	color: #4d4d4d;	 
+	font-weight: 700;	 
+	cursor: pointer;
+	border: 1px solid;
+
+	 
+}
+ 
+.main__text a{
+	text-decoration: none;
+	color: #4d4d4d;
+}
+
+.button__icon:hover{
+	background-color: #ffffff;
+	color: #4d4d4d;
+	border: 0; 
+	box-shadow: -7px 7px 20px rgba(0,0,0,0.1);
+}
+.about__text {
+	margin-top: 177px;
+}
+.about__text h2{
+	font-size: 46px;
+	font-weight: 700;
+	color: #7c7c7c;
+
+	line-height: 1em;
+}
+.about__text p{
+	font-size: 16px;
+ 	width: 475px;
+}
+.button__about {
+	margin-top: 37px;
+	width: 246px;
+	height: 50px;
+	margin-right: 20px;
+	background-color: #ffffff ; 
+	text-transform: uppercase;
+	border-radius: 0px;	 
+	color: #4d4d4d;	 
+	font-weight: 700;	 
+	cursor: pointer;
+	border: 1px solid;
+	padding: 47px auto;
+}
+.button__about:hover{
+	box-shadow: -7px 7px 20px rgba(0,0,0,0.1);
+}
+.about__photo{
+	margin-top: 110px;
+	padding-bottom: 125px;
+}
+.services__text span{
+	border-top: 4px solid;
+}
+.services{
+	background-color: #f6f6f6;
+	padding-top: 116px;
+	height: 690px;
+}
+.services__text h2{
+	text-transform: uppercase;
+	font-size: 46px;
+	font-weight: 700;
+	color: #7a7a7a;
+	text-align: center;
+}
+.services__icon{
+	margin-top: 70px;
+	text-align: center;
+
+}
+.feature__text{
+	color: #4d4d4d;
+	font-size: 22px;
+	font-weight: 400;
+}
+.skill{
+	padding-top: 116px;
+}
+.skill__img{
+	margin-top: 67px;
+	padding-bottom: 125px;
+}
+.portfolio{
+	padding-top: 116px;
+	background-color: #f6f6f6;
+}
+.portfolio__photo{
+	display: block;
+	 
+}
+.photoboto{
+	margin: 20px 20px;
+	
+}
+.portfolio__text{
+	margin-bottom: 46px;
+}
+.portfolio__button{
+	background-color: #f6f6f6;
+	margin-bottom: 120px;
+	width: 190px;
+}
+.test{
+	height: 712px;	
+	padding-top: 125px;
+}
+.test__about{
+	margin-top: 60px;
+	border: 1px solid;
+	padding-top:60px;
+}
+h3{  
+	color: #474747;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 400;
+
+}
+.ceo__text{
+	color: #474747;
+	font-size: 12px;
+	line-height: 0.2em;
+	text-transform: uppercase;
+}
+.text__test {
+	width: 560px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #949494
+
+}
+.test__photo{
+	margin-right: 30px;
+	margin-bottom: 55px;
+}
+  
+.square li{
+	margin: auto 5px;
+	
+}
+ 
+.hidden{
+	color: #212121;
+}
+.icons {
+	background-color: #f6f6f6;
+	padding-top: 50px;
+}
+.test__icon{
+	text-align: center;
+	
+}
+.test__icon h3{
+	font-size: 22px;
+	text-transform: uppercase;
+	line-height: 1.5em;
+	color:#363636;
+	padding-bottom: 65px;
+}
+.test__icon span{
+	font-weight: 700;
+}
+ .white{
+ 	height: 155px;	
+ 	background-color: #ffffff;
+ }
+ .footer{
+ 	background: url(../img/contact-bg.jpg) ;
+ 	padding-top: 145px;
+ }
+ .footer__text h2{
+ 	color: #f0f0f0;
+ 	padding-bottom: 70px;
+ }
+ 
+  .form-control{
+	height: 58px;
+	width: 370px;
+	margin-right: 30px;
+	border-radius: 0;
+	text-align: left;
+}
+.form-control1{
+	display: block;
+	 margin-top:  20px;
+	width: 770px; 
+	height: 200px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+.footer__button{
+	width: 124px;
+	height: 52px;
+	background-color: #ffffff;
+	margin-bottom: 40px;
+}
+.plane{
+	margin: 5px;
+} 
+hr{
+	background-color: #ffffff;
+}
+.footer__p{
+	color: #ffffff;
+	text-align: center;
+}
+ 
+.about__photo a{
+	text-decoration: none;
+	color: black;
+}
+.about__photo i{
+	position:fixed;
+bottom:50px;
+right:50px;
+cursor:pointer;
+color: #80a1a3;
+ 
+font-size: 55px;
+}
